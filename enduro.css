@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+body{
+	background:#ffcc91 url('E:/html/eng/wallpaper motocross 4k celular.png')50%  no-repeat;
+}
+
+.content {
+	padding: 50px 0px 130px 0px;
+	max-width: 700px;
+	margin: 0px auto;
+}
+.moto{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	margin: 30px 0px 0px 120px;
+	font-family: Mistral;
+	font-size: 50px;
+}
+.content-top{text-align: center;}
+.content-img_item img{
+	width: 360px;
+	height: 200px;
+	margin:0px 0px 10px 340px;}
+
+.content-img{
+	background:url('E:/html/eng/mototsiklist_mototsikl_vertolety_122019_1920x1080.jpg')0% 96%/330px 200px no-repeat,url('E:/html/eng/mototsiklist_moto.jpg')0% 0%/330px 200px no-repeat;
+	margin: 20px 0px 0px 0px;
+
+}
+.content-top_title{
+	border: 10px solid #f90;
+	background-color: #f90;
+	 color: #fff;
+	 border-radius: 30px
+}
+
+.text_bottom{
+border: 10px solid #f90;
+	background-color: #f90;
+	 color: #fff;
+	 border-radius: 30px;
+}
+.nadetii{ margin: 20px 0px 0px 30px;
+	
+}
+
+.etii{
+	font-size: 50px;
+	border: 2px dashed #f90;
+	
+}
+.nadetiiw{ margin: 0px 0px 0px 400px;
+	
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  height: 100px;
+  color: #f90;
+}
+.box: first-child {
+    align-self: stretch;
+}
+.box .selected {
+    align-self: center;
+    padding: 10% 40%;}
+
+
+
+
+
+
+
+
+ .what__row{
+	display: flex;
+}
+.what__image{}
+.what__body{
+	flex: 1 1 auto;
+	padding: 0px 0px 0px 38px;
+}
+.what__title{
+	margin: 0px 0px 33px 0px;
+}
+.what__text{
+
+}
+.what__text p{
+	color: #333333;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.footer{
+	color: #f5f5f5;
+}
+
+.footer_row{
+	display: flex;
+	height: 65px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.footer__text{
+	color: #445162;
+	font-size: 12px;
+	letter-spacing: 0.3px;
+}
+.colums{
+	background-color: black;
+	padding: 0px 0;
+}
+.colums__title{
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.colums__row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.colums__column{
+	flex:0 1 50%;}/*текст зайняв 50% відведеного простору монітору*/
+
+.colums__item{} 
+.item{}
+.item__row{
+	display: flex;
+}
+.item__image{
+	flex: 0 0 100px;
+
+}
+.item__image img{
+	max-width: 100%;/* Підтвердження огранічення розміру картинки */
+}
+.item__body{
+	flex: 1 1 auto;
+	padding: 0px 0px 0px 15px;
+}
+.item__title{
+	color: #f90;
+	font-size: 24px;
+	line-height: 30px;
+	padding: 0px 0px 13px 0px;
+
+}
+.item__text{
+	color: #f90;
+}
